@@ -9,7 +9,7 @@ class HelloWorld
     }
 
     def callName() {
-        println(this.name);
+        this.name);
     }
 
 }

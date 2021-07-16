@@ -2,8 +2,6 @@
 
 import elmo.jenkins.HelloWorld
 
-def call(String name) {
-    def helloWorld = new HelloWorld(name)
-
-    helloWorld.callName()
+def call() {
+    return 'Hello Foo'
 }
