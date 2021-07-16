@@ -1,6 +1,6 @@
 import elmo.jenkins.HelloWorld
 
-// vars/HelloWorld.groovy
+// vars/helloWorld.groovy
 def call(String name) {
     def helloWorld = new HelloWorld(name)
 
